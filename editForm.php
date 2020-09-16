@@ -35,13 +35,13 @@ foreach ($resultado as $r) {
 ?>
 
 
-<body>
+<body style="background-color: gray;">
     <nav style="background-color: black;">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">CRUD LIVROS</a>
+            <a href="#" class="brand-logo" style = "color:darkorange; margin-left: 45vw;">Biblioteca</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="index.php">Cadastrar</a></li>
-                <li><a href="relatorio.php">Relatório</a></li>
+                <li><a href="index.php" style="color: darkorchid;">Cadastrar</a></li>
+                <li><a href="relatorio.php" style="color: darkorchid;">Relatório</a></li>
             </ul>
         </div>
     </nav>
@@ -49,10 +49,10 @@ foreach ($resultado as $r) {
     <div class="container">
         <div class="row">
             <div class="col s12 m12">
-                <div class="card">
+                <div class="card" style="background-color: #454241;">
                     <div class="card-content">
                         <span class="card-title blue-grey-text text-darken-2 center-align">
-                            <h4>Editar Livro</h4>
+                            <h4 style="color: whitesmoke;">Editar Livro</h4>
                         </span>
 
                         <div class="row">

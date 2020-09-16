@@ -9,15 +9,11 @@
 //     echo $e;
 // }
 
-// $username = $_POST['username'];
-// $password = $_POST['password'];
-//$_POST['username'] = "sdsds";
-
 $con = new PDO("mysql:host=localhost;dbname=test_php", "root", "");
 
 //$con->exec("INSERT INTO tb_usuarios(username, password) VALUES('3233', '32434')");
 
-$resultados = $con->query("SELECT * FROM tb_usuarios");
+// $resultados = $con->query("SELECT * FROM tb_usuarios");
 
 
 echo "<table>";

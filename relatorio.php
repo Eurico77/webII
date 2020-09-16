@@ -33,16 +33,16 @@ $resultados = $con->query("SELECT * FROM book");
   <div class="container">
     <div class="row">
       <div class="col s12 m12">
-        <div class="card">
-          <div class="card-content">
+        <div class="card" style="background-color: #454241;">
+          <div class="card-content" style="background-color: #454241;">
             <span class="card-title blue-grey-text text-darken-2 center-align">
-              <h4>Relatório de Livros </h4>
+              <h4 style="color: whitesmoke;">Relatório de Livros </h4>
             </span>
 
-            <div class="row">
-              <table class="striped">
+            <div class="row" >
+              <table class="striped" >
                 <thead>
-                  <tr>
+                  <tr >
                     <th>ID</th>
                     <th>Titulo</th>
                     <th>Autor</th>

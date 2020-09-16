@@ -9,9 +9,7 @@
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-    .error {
-      color: red !important;
-    }
+    
   </style>
 </head>
 
@@ -28,10 +26,10 @@
   <div class="container" ">
     <div class="row" style="box-shadow: black 1px, 6px 5px;">
       <div class="col s12 m12">
-        <div class="card" >
+        <div class="card" style="background-color: #454241;">
           <div class="card-content ">
             <span class="card-title blue-grey-text text-darken-2 center-align" >
-              <h4>Cadastrar Livro</h4>
+              <h4 style="color: whitesmoke;">Cadastrar Livro</h4>
             </span>
             <div class="row">
               <form action="create.php" method="post" class="col s12">
